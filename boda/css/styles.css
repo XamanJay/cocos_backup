@@ -1,0 +1,112 @@
+.form-wizard{
+	background-image: url("../img/fondo.png");
+	background-position: top;
+	opacity: 1;
+}
+
+#logo{
+	margin:0px auto;
+	display: block;
+	margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+#indexBtn{
+	margin: 0px auto !important;
+	display: block;
+}
+
+#marginContainer{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#weddingForm{
+	color: #5b2f0a;
+}
+
+.form-header-classic .form-wizard-step.active p,
+.form-header-classic .form-wizard-step.activated p{
+	color: #5b2f0a;
+}
+
+.form-wizard h4{
+	color: #5b2f0a;
+}
+
+
+.form-header-classic .form-wizard-step.active .form-wizard-step-icon{
+	background-color: #94444c !important;
+}
+
+.form-header-classic .form-wizard-step.activated .form-wizard-step-icon{
+	border: 1px solid #94444c;
+    color: #94444c;
+}
+
+.btn-next,
+.btn-submit{
+	background-color: #94444c !important;
+}
+
+#couple{
+	background-image: none;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+.form-wizard{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#answer{
+
+	padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+/*Seccion mobile de disponibilidad */
+@media (max-width: 768px) {
+	#marginContainer{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.form-wizard{
+		/*background-image: url("../img/fondo-mob.png");*/
+	}  
+}
+
+#parejaImg{
+	display: block;
+	position: fixed;
+}
+
+#loading{
+	display: none;
+}
+
+@media (max-width: 1120px) {
+	#couple{
+		background-image: url("../img/pareja.png");
+		background-size: cover;
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+	#parejaImg{
+		display: none;
+	}
+}
+
+@media (max-width: 600px) {
+	#couple{
+		background-image: none;
+	}
+	#parejaImg{
+		display: block;
+	}
+}

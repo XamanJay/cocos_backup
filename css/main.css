@@ -1,0 +1,378 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	background-image: url("/img/background.png");
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo{
+	width: 180px;
+}
+
+@media(min-width: 768px){
+	#logo{
+		width: 290px;
+	}
+}
+
+#header_coco{
+	height: auto;
+}
+
+
+
+#header_coco ul li a{
+	height: 70px;
+	color: #dd4c5c;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#header_coco ul li{
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+/*#header_coco ul li a:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}*/
+
+#rapid_{
+	width: 170px;
+	
+}
+
+
+
+#coco_banners{
+	margin-top: 90px;
+}
+
+#coco_banners_mob{
+	margin-top: 60px;
+}
+
+#coco_banners{
+	display: none;
+}
+
+#coco_banners_mob{
+	display: block;
+}
+
+@media(min-width: 701px){
+	#coco_banners{
+		display: block;
+	}
+
+	#coco_banners_mob{
+		display: none;
+	}
+
+}
+
+#mob_menu ul li a,#logo{
+	-webkit-transition: all 0.8s ease;
+     -moz-transition: all 0.8s ease;
+      -ms-transition: all 0.8s ease;
+          transition: all 0.8s ease;
+}
+
+#mob_menu ul li a:hover,#logo:hover{
+	-webkit-transform:scale(0.85); /* Safari and Chrome */
+    -moz-transform:scale(0.85); /* Firefox */
+    -ms-transform:scale(0.85); /* IE 9 */
+    -o-transform:scale(0.85); /* Opera */
+	transform: scale(0.85);
+}
+
+/* Default classes*/
+
+.no_pad_left{
+	padding-left: 0px;
+}
+
+.no_pad_right{
+	padding-right: 0px;
+}
+
+.no_pad_sides{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.no_pad{
+	padding:0px;
+}
+
+.new-item{
+	display: block;
+	width: 100%;
+}
+
+.center-item{
+	display: block;
+	width: 100%;
+	margin: 0px auto;
+}
+
+.coco_pink{
+	color: #dd4c5c;
+}
+
+.coco_brown{
+	color: #5b3633;
+}
+
+/* Social Media bar styles */
+
+.social {
+  /*width: 200px;
+  height: 220px;*/
+  position: fixed;
+  margin-top: 150px;
+  perspective: 1000px;
+  list-style: none;
+  padding-left: 0px;
+  z-index: 99999;
+
+}
+
+.social li a {
+  display: block;
+  /*height: 20px;*/
+  width: 40px;
+  background: #dd4c5c;
+  border-bottom: 1px solid #dd4c5c;
+  font: normal normal normal
+  16px/20px 
+  'FontAwesome', 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  transition: background .5s ease .300ms
+}
+
+.social li:first-child a:hover { background: #3b5998 }
+.social li:nth-child(2) a:hover { background: #00acee }
+.social li:nth-child(3) a:hover { background: #00a680 }
+.social li:nth-child(4) a:hover { background: #dd4b39 }
+
+.social li:first-child a { border-radius: 0 5px 0 0 }
+.social li:last-child a { border-radius: 0 0 5px 0 }
+    
+
+/* Esconder Items en Mobile */
+
+.hide_mob{
+	display: none;
+}
+
+@media (min-width: 768px)
+{
+	.hide_mob{
+		display: block;
+	}
+}
+
+/* Sucursales estilos */
+
+.sucursal p{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 4px;
+	padding-left: 10px;
+}
+
+.sucursal img{
+	margin-bottom: 30px;
+}
+
+.phone_{
+	margin-top: 30px;
+}
+
+.map_coco{
+	width: 100%;
+	height: 400px;
+	margin-bottom: 30px;
+}
+
+#rappi_{
+	padding-top: 20px;
+	text-align: center;
+}
+
+#rappi_logo{
+	width: 200px;
+	display: block;
+	margin:0px auto;
+	margin-top: 30px;
+}
+
+#rappi_ p{
+	color: #dd4c5c;
+	font-size: 22px;
+	font-weight: 900;
+	margin-bottom: 0px;
+}
+
+#rappi_ a{
+	font-size: 18px;
+}
+
+@media(min-width:768px){
+
+	#rappi_logo{
+		width: 100%;
+		margin-top: 0px;
+	}
+
+	#rappi_{
+		text-align: unset;
+	}
+	#rappi_ p{
+		font-size: 16px;
+	}
+
+	#rappi_ a{
+		font-size: 14px;
+	}
+}
+
+@media(min-width: 925px){
+	#rappi_ p{
+		font-size: 20px;
+	}
+
+	#rappi_ a{
+		font-size: 15px;
+	}
+}
+
+@media(min-width:992px){
+	.map_coco{
+		height: 100%;
+		margin-bottom: 0px;
+	}
+
+	#rappi_ p{
+		font-size: 20px;
+	}
+
+	#rappi_ a{
+		font-size: 15px;
+	}
+}
+
+@media(min-width: 1113px){
+	#rappi_ p{
+		font-size: 25px;
+	}
+
+	#rappi_ a{
+		font-size: 20px;
+	}
+}
+
+
+@media(min-width: 1500px){
+	#rappi_ p{
+		font-size: 35px;
+	}
+
+	#rappi_ a{
+		font-size: 30px;
+	}
+
+	#rappi_logo{
+		width: 220px;
+	}
+}
+
+/* Loading Style */
+
+
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+#loadingDiv {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: #5b3633; /* #5b3633 ->cafe, #dd4c5c ->rosa */
+}
+
+
+svg {
+  display:block;
+  width:258px;
+  height:258px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+}
+
+.tree {
+  fill: #dd4c5c;
+}
+
+.circle-mask {
+  transform-origin: 50% 90%;
+  animation: scale 5s infinite ease-out;
+}
+
+@keyframes scale {
+  0%, 100% {
+    transform: scale(0.0);
+  }
+  7%, 90% {
+    transform: scale(0.4);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#loadingDiv{
+	text-align: center;
+}
+
+#loadingDiv p{
+	font-size: 30px;
+	color: white;
+	padding-top: 50px;
+	 -webkit-animation-name: bounce; 
+	   animation-name: bounce; 
+	   -webkit-animation-duration: 1.3s;
+	   animation-duration: 1.3s; 
+	   -webkit-animation-fill-mode: both; 
+	   animation-fill-mode: both; 
+}
+
+
+/* Steps to make cocodrillo */
+
+#pan,#queso,#carne,#salsa{
+	margin:0px;
+	margin-bottom: 50px;
+}
+
+
+
+/* Styles logos Rappi and Uber Eats */
+
+.maxImgW{
+	max-width: 170px;
+	width: 100%;
+}
